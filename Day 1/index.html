@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Training</title>
+</head>
+    <body>
+        <h1>Joseph M. De Leon's Day 1 Assignment</h1>
+
+        
+        <script>
+        //Binary Operators
+            //Arithmetic Operators
+            // + - * / %
+            var num1 = 34; 
+            var num2 = 35;
+
+            console.log(`Addition: ${num1} + ${num2} = ` + (num1 + num2) );
+            console.log(`Subtraction: ${num1} - ${num2} = ` + (num1 - num2));
+            console.log(`Multiplication: ${num1} * ${num2} = ` + (num1 * num2));
+            console.log(`Division: ${num2} / ${num1} = ` + (num2 / num1) );
+            console.log(`Modulo: ${num2} % ${num1} = ` + (num2 % num1));
+    
+            //Assignment Operators
+            // = += -= *= /= %=
+            var num3 = 34;
+            var num4 =35;
+            num3 = num4;
+            console.log(num3);
+
+            var num5 = 34;
+            var num6 =35;
+            num5 += num6;
+            console.log(num5);
+
+            var num7 = 34;
+            var num8 =35;
+            num7 -= num8;
+            console.log(num7);
+
+            var num9 = 34;
+            var num10 =35;
+            num9 *= num10;
+            console.log(num9);
+
+            var num11 = 34;
+            var num12 =35;
+            num12 /= num11;
+            console.log(num12);
+
+            var num13 = 34;
+            var num14 =35;
+            num14 %= num13;
+            console.log(num14);
+
+            //Relational/Comparison Operators
+            //> >= < <= == !=
+            x = num2 > num1;
+            console.log(`${num2} > ${num1} = ${(x)}`);
+
+            y = num1 >= num1;
+            console.log(`${num1} >= ${num1} = ${(y)}`);
+
+            z = num2 < num1;
+            console.log(`${num2} < ${num1} = ${(z)}`);
+
+            a = num2 <= num2;
+            console.log(`${num2} <= ${num2} = ${(a)}`);
+
+            strNum='34';
+            b = num1 == strNum;
+            console.log(`${num1} == '${strNum}' = ${(b)}`);
+
+            strNum='34';
+            c = num1 != strNum;
+            console.log(`${num1} != '${strNum}' = ${(c)}`);
+
+            //Identity Operators
+            // === !== 
+            eql = num1 === num2;
+            console.log(`${num1} === ${num2} = ${(eql)}`);
+
+            eql = num1 !== num2;
+            console.log(`${num1} !== ${num2} = ${(eql)}`);
+
+            //Logical Operators
+            //&& || !
+            andOp = num1 == num1 && num2 == num2;
+            console.log(`Condition 1: ${(num1 == num1)} && Condition 2: ${(num2==num2)} = ${(andOp)}`);
+
+            orOp = num1 != num1 || num2 == num2;
+            console.log(`Condition 1: ${(num1 != num1)} || Condition 2: ${(num2==num2)} = ${(orOp)}`);
+
+            orOp = num1 != num1 || num2 == num2;
+            console.log(`Not Condition of Or Operator: ${!orOp}`);
+
+        </script>
+
+    </body>
+</html>
